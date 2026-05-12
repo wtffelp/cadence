@@ -62,7 +62,14 @@
       <groupId>org.jdbi</groupId>
       <artifactId>jdbi3-core</artifactId>
       <version>3.45.0</version>
-  </dependency>
+    </dependency>
+
+    <!-- BCrypt -->
+    <dependency>
+      <groupId>at.favre.lib</groupId>
+      <artifactId>bcrypt</artifactId>
+      <version>0.10.2</version>
+    </dependency>
 
     <!-- Testes -->
     <dependency>
