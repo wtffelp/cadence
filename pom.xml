@@ -57,6 +57,13 @@
       <version>4.4.0</version>
     </dependency>
 
+    <!-- JDBI -->
+    <dependency>
+      <groupId>org.jdbi</groupId>
+      <artifactId>jdbi3-core</artifactId>
+      <version>3.45.0</version>
+  </dependency>
+
     <!-- Testes -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
