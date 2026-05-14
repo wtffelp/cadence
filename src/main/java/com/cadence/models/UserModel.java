@@ -3,6 +3,8 @@ package com.cadence.models;
 import java.sql.Timestamp;
 import java.util.UUID;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+@JsonIgnoreProperties(value = "passwordHash", allowSetters = true)
 public class UserModel {
     private UUID id;
     private String username;
